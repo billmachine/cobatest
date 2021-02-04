@@ -6,8 +6,28 @@
 	<dict>
 		<key>cobatest.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FA5E4F1125CCAC4100FB17BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA5E4F2725CCAC4500FB17BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA5E4F3225CCAC4500FB17BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
