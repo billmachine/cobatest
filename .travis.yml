@@ -4,7 +4,7 @@ xcode_workspace: cobatest.xcworkspace
 xcode_scheme: cobatest
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
 before_install:
-- cd cobatest
+#- cd cobatest
 - pod cache clean --all
 - rm -rf ./Pods/*
 - pod update
