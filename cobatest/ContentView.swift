@@ -7,6 +7,7 @@
 
 import SwiftUI
 import CoreData
+import RxSwift
 
 
 struct ContentView: View {
