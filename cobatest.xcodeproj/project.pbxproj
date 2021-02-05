@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07F2FEE24165B1000EA05F7A /* Pods_cobatest_cobatestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193E44CADFBCB9B0109EDBE6 /* Pods_cobatest_cobatestUITests.framework */; };
-		94E8DC5B6A3C256C66D21D63 /* Pods_cobatest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C161D738F23CF808C2F1A5 /* Pods_cobatest.framework */; };
-		A1E48F0AFD640C85D1C418E0 /* Pods_cobatestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359AEA59FE30265899F8F604 /* Pods_cobatestTests.framework */; };
 		FA5E4F1625CCAC4100FB17BA /* cobatestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E4F1525CCAC4100FB17BA /* cobatestApp.swift */; };
 		FA5E4F1825CCAC4100FB17BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E4F1725CCAC4100FB17BA /* ContentView.swift */; };
 		FA5E4F1A25CCAC4400FB17BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5E4F1925CCAC4400FB17BA /* Assets.xcassets */; };
@@ -40,10 +37,7 @@
 /* Begin PBXFileReference section */
 		01209E5814EDDF050AA62D8F /* Pods-cobatestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cobatestTests.debug.xcconfig"; path = "Target Support Files/Pods-cobatestTests/Pods-cobatestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C3D6182E09F8325AA814D23 /* Pods-cobatest-cobatestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cobatest-cobatestUITests.release.xcconfig"; path = "Target Support Files/Pods-cobatest-cobatestUITests/Pods-cobatest-cobatestUITests.release.xcconfig"; sourceTree = "<group>"; };
-		193E44CADFBCB9B0109EDBE6 /* Pods_cobatest_cobatestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cobatest_cobatestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		359AEA59FE30265899F8F604 /* Pods_cobatestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cobatestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A023A0174D6A9F782574395 /* Pods-cobatest-cobatestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cobatest-cobatestUITests.debug.xcconfig"; path = "Target Support Files/Pods-cobatest-cobatestUITests/Pods-cobatest-cobatestUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		76C161D738F23CF808C2F1A5 /* Pods_cobatest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cobatest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF5E8A6998AF6B1E1C69C78 /* Pods-cobatest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cobatest.debug.xcconfig"; path = "Target Support Files/Pods-cobatest/Pods-cobatest.debug.xcconfig"; sourceTree = "<group>"; };
 		BE0B945F07E4E6D739EED56C /* Pods-cobatestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cobatestTests.release.xcconfig"; path = "Target Support Files/Pods-cobatestTests/Pods-cobatestTests.release.xcconfig"; sourceTree = "<group>"; };
 		BE5DA1969DB2AC68CCB7E32B /* Pods-cobatest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cobatest.release.xcconfig"; path = "Target Support Files/Pods-cobatest/Pods-cobatest.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94E8DC5B6A3C256C66D21D63 /* Pods_cobatest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1E48F0AFD640C85D1C418E0 /* Pods_cobatestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F2FEE24165B1000EA05F7A /* Pods_cobatest_cobatestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,18 +92,7 @@
 				01209E5814EDDF050AA62D8F /* Pods-cobatestTests.debug.xcconfig */,
 				BE0B945F07E4E6D739EED56C /* Pods-cobatestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		2827AA7E8950EA25E5009C83 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				76C161D738F23CF808C2F1A5 /* Pods_cobatest.framework */,
-				193E44CADFBCB9B0109EDBE6 /* Pods_cobatest_cobatestUITests.framework */,
-				359AEA59FE30265899F8F604 /* Pods_cobatestTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FA5E4F0925CCAC4100FB17BA = {
@@ -123,7 +103,6 @@
 				FA5E4F3625CCAC4500FB17BA /* cobatestUITests */,
 				FA5E4F1325CCAC4100FB17BA /* Products */,
 				099EFC3396870D483889E8D0 /* Pods */,
-				2827AA7E8950EA25E5009C83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
