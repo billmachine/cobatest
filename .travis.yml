@@ -2,8 +2,8 @@
 
 language: objective-c
 osx_image: xcode12
-xcode_workspace: cobatest.xcworkspace
-xcode_scheme: cobatest
+xcode_workspace: cobatestxxx.xcworkspace
+xcode_scheme: cobatestxxx2
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
 before_install:
 - cd cobatest
