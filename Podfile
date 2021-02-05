@@ -7,14 +7,7 @@ target 'cobatest' do
 
   # Pods for cobatest
 
-  target 'cobatestTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'cobatestUITests' do
-    # Pods for testing
-  end
+  
 
 pod 'RxSwift', '~> 5'
 
