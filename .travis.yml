@@ -1,14 +1,22 @@
 
-language: swift
-osx_image: xcode12 
-xcode_project: cobatest.xcworkspace
-xcode_scheme: cobatest
-xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro
-before_install:
-- gem install cocoapods # Since Travis is not always on latest version
+#language: swift
+#osx_image: xcode12
+#xcode_workspace: cobatest.xcworkspace
+#xcode_scheme: cobatest
+#xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro
+#before_install:
+#- gem install cocoapods # Since Travis is not always on latest version
 # Avoid error: Encountered an unknown error (uninitialized constant Concurrent::Promises) during validation
 # https://github.com/CocoaPods/CocoaPods/issues/8948
 #- gem update concurrent-ruby
 #- pod setup
 # - pod install --project-directory=Example
 
+
+language: swift
+osx_image: xcode12
+xcode_workspace: cobatest.xcworkspace
+xcode_scheme: cobatest
+xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro
+before_install:
+- pod install
