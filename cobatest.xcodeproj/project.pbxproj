@@ -14,11 +14,11 @@
 		FA5E4F1D25CCAC4400FB17BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5E4F1C25CCAC4400FB17BA /* Preview Assets.xcassets */; };
 		FA5E4F1F25CCAC4400FB17BA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E4F1E25CCAC4400FB17BA /* Persistence.swift */; };
 		FA5E4F2225CCAC4400FB17BA /* cobatest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA5E4F2025CCAC4400FB17BA /* cobatest.xcdatamodeld */; };
-		FA78024825CD4479006F4EF6 /* cobatestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA78024725CD4479006F4EF6 /* cobatestTests.swift */; };
+		FA78027225CD622D006F4EF6 /* cobatestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA78027125CD622D006F4EF6 /* cobatestTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FA78024A25CD4479006F4EF6 /* PBXContainerItemProxy */ = {
+		FA78027425CD622D006F4EF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FA5E4F0A25CCAC4100FB17BA /* Project object */;
 			proxyType = 1;
@@ -39,9 +39,9 @@
 		FA5E4F1E25CCAC4400FB17BA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FA5E4F2125CCAC4400FB17BA /* cobatest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cobatest.xcdatamodel; sourceTree = "<group>"; };
 		FA5E4F2325CCAC4400FB17BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA78024525CD4479006F4EF6 /* cobatestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cobatestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA78024725CD4479006F4EF6 /* cobatestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobatestTests.swift; sourceTree = "<group>"; };
-		FA78024925CD4479006F4EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA78026F25CD622D006F4EF6 /* cobatestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cobatestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA78027125CD622D006F4EF6 /* cobatestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobatestTests.swift; sourceTree = "<group>"; };
+		FA78027325CD622D006F4EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA78024225CD4479006F4EF6 /* Frameworks */ = {
+		FA78026C25CD622D006F4EF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				FA5E4F1425CCAC4100FB17BA /* cobatest */,
-				FA78024625CD4479006F4EF6 /* cobatestTests */,
+				FA78027025CD622D006F4EF6 /* cobatestTests */,
 				FA5E4F1325CCAC4100FB17BA /* Products */,
 				099EFC3396870D483889E8D0 /* Pods */,
 				2089B7802B21586B4122D9DF /* Frameworks */,
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				FA5E4F1225CCAC4100FB17BA /* cobatest.app */,
-				FA78024525CD4479006F4EF6 /* cobatestTests.xctest */,
+				FA78026F25CD622D006F4EF6 /* cobatestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,11 +122,11 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FA78024625CD4479006F4EF6 /* cobatestTests */ = {
+		FA78027025CD622D006F4EF6 /* cobatestTests */ = {
 			isa = PBXGroup;
 			children = (
-				FA78024725CD4479006F4EF6 /* cobatestTests.swift */,
-				FA78024925CD4479006F4EF6 /* Info.plist */,
+				FA78027125CD622D006F4EF6 /* cobatestTests.swift */,
+				FA78027325CD622D006F4EF6 /* Info.plist */,
 			);
 			path = cobatestTests;
 			sourceTree = "<group>";
@@ -153,22 +153,22 @@
 			productReference = FA5E4F1225CCAC4100FB17BA /* cobatest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA78024425CD4479006F4EF6 /* cobatestTests */ = {
+		FA78026E25CD622D006F4EF6 /* cobatestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA78024C25CD4479006F4EF6 /* Build configuration list for PBXNativeTarget "cobatestTests" */;
+			buildConfigurationList = FA78027625CD622D006F4EF6 /* Build configuration list for PBXNativeTarget "cobatestTests" */;
 			buildPhases = (
-				FA78024125CD4479006F4EF6 /* Sources */,
-				FA78024225CD4479006F4EF6 /* Frameworks */,
-				FA78024325CD4479006F4EF6 /* Resources */,
+				FA78026B25CD622D006F4EF6 /* Sources */,
+				FA78026C25CD622D006F4EF6 /* Frameworks */,
+				FA78026D25CD622D006F4EF6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FA78024B25CD4479006F4EF6 /* PBXTargetDependency */,
+				FA78027525CD622D006F4EF6 /* PBXTargetDependency */,
 			);
 			name = cobatestTests;
 			productName = cobatestTests;
-			productReference = FA78024525CD4479006F4EF6 /* cobatestTests.xctest */;
+			productReference = FA78026F25CD622D006F4EF6 /* cobatestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -183,7 +183,7 @@
 					FA5E4F1125CCAC4100FB17BA = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
-					FA78024425CD4479006F4EF6 = {
+					FA78026E25CD622D006F4EF6 = {
 						CreatedOnToolsVersion = 12.0.1;
 						TestTargetID = FA5E4F1125CCAC4100FB17BA;
 					};
@@ -203,7 +203,7 @@
 			projectRoot = "";
 			targets = (
 				FA5E4F1125CCAC4100FB17BA /* cobatest */,
-				FA78024425CD4479006F4EF6 /* cobatestTests */,
+				FA78026E25CD622D006F4EF6 /* cobatestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -218,7 +218,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA78024325CD4479006F4EF6 /* Resources */ = {
+		FA78026D25CD622D006F4EF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,21 +281,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA78024125CD4479006F4EF6 /* Sources */ = {
+		FA78026B25CD622D006F4EF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA78024825CD4479006F4EF6 /* cobatestTests.swift in Sources */,
+				FA78027225CD622D006F4EF6 /* cobatestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FA78024B25CD4479006F4EF6 /* PBXTargetDependency */ = {
+		FA78027525CD622D006F4EF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FA5E4F1125CCAC4100FB17BA /* cobatest */;
-			targetProxy = FA78024A25CD4479006F4EF6 /* PBXContainerItemProxy */;
+			targetProxy = FA78027425CD622D006F4EF6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -462,7 +462,7 @@
 			};
 			name = Release;
 		};
-		FA78024D25CD4479006F4EF6 /* Debug */ = {
+		FA78027725CD622D006F4EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,7 +482,7 @@
 			};
 			name = Debug;
 		};
-		FA78024E25CD4479006F4EF6 /* Release */ = {
+		FA78027825CD622D006F4EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,11 +523,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA78024C25CD4479006F4EF6 /* Build configuration list for PBXNativeTarget "cobatestTests" */ = {
+		FA78027625CD622D006F4EF6 /* Build configuration list for PBXNativeTarget "cobatestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA78024D25CD4479006F4EF6 /* Debug */,
-				FA78024E25CD4479006F4EF6 /* Release */,
+				FA78027725CD622D006F4EF6 /* Debug */,
+				FA78027825CD622D006F4EF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
