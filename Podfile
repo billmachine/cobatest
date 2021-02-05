@@ -16,6 +16,6 @@ target 'cobatest' do
     # Pods for testing
   end
 
-pod 'RxSwift', '~> 5'
+
 
 end
