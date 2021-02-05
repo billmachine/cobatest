@@ -7,10 +7,11 @@
 
 import SwiftUI
 import CoreData
+import RxSwift
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
-
+    var x : Observable<Any>?
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
