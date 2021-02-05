@@ -1,6 +1,6 @@
 
 #language: swift
-#osx_image: xcode12
+#osx_image: xcode12 
 #xcode_workspace: cobatest.xcworkspace
 #xcode_scheme: cobatest
 #xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro
@@ -12,10 +12,11 @@
 #- pod setup
 # - pod install --project-directory=Example
 
-language: swift
+language: objective-c
 osx_image: xcode12
 xcode_workspace: cobatest.xcworkspace
 xcode_scheme: cobatest
-xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro
+xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
 before_install:
+- cd cobatest
 - pod install
