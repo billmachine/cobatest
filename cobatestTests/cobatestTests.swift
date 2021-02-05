@@ -22,7 +22,7 @@ class cobatestTests: XCTestCase {
     _ sideC: Int
   ) throws {
     if sideA < 1 {
-      throw TriangleError.invalidInput
+     // throw TriangleError.invalidInput
     }
   }
  
