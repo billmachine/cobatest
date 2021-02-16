@@ -18,10 +18,10 @@ jobs:
       run: xcodebuild -workspace cobatest.xcworkspace -scheme '${{ matrix.run-config['scheme'] }}' -showsdks
     - name: Show Available Destinations
       run: xcodebuild -workspace cobatest.xcworkspace -scheme '${{ matrix.run-config['scheme'] }}' -showdestinations
-    - name: Install Dependencies
+     - name: Install Dependencies
       run: |
         cd cobatest
         pod install --repo-update
       shell: bash
     - name: build and test
-      run: xcodebuild clean test -scheme '${{ matrix.run-config['scheme'] }}' -destination '${{ matrix.run-config['destination'] }}' -showBuildTimingSummary
+      run: xcodebuild -scheme '${{ matrix.run-config['scheme'] }}' -workspace 'cobatest.xcworkspace' -destination '${{ matrix.run-config['destination'] }}' -showBuildTimingSummary
