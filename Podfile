@@ -9,6 +9,6 @@ target 'cobatest' do
 
   
 
-#pod 'RxSwift', '~> 5'
+pod 'RxSwift', '~> 5'
 
 end

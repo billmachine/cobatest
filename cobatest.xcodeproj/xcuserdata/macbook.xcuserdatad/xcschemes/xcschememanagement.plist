@@ -4,19 +4,19 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>cobatest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>cobatestTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FA5E4F1125CCAC4100FB17BA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>FA5E4F2725CCAC4500FB17BA</key>
 		<dict>
 			<key>primary</key>
